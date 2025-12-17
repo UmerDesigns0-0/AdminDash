@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { registerLicense } from "@syncfusion/ej2-base";
+import { registerLicense } from "@syncfusion/ej2/base";
 import App from "./App.jsx";
 import "./index.css";
 import "./App.css";
@@ -9,7 +9,7 @@ import "./App.css";
 import { ContextProvider } from "./contexts/StateContext.jsx";
 
 registerLicense(
-  "Ngo9BigBOggjHTQxAR8/V1JFaF1cXGVCf1FpRmJGdld5fUVHYVZUTXxaS00DNHVRdkdmWH1ednRRRWhfWUV/WUtWYEg="
+  "Ngo9BigBOggjHTQxAR8/V1JGaF5cXGpCf1FpRmJGdld5fUVHYVZUTXxaS00DNHVRdkdmWH1fd3RSR2ReU0N1W0JWYEs="
 );
 
 ReactDOM.createRoot(document.getElementById("root")).render(
