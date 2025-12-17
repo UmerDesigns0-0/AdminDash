@@ -37,7 +37,7 @@ const Cart = () => {
                   </p>
                   <div className="flex gap-4 mt-2 items-center">
                     <p className="font-semibold text-sm">{item.price}</p>
-                    <div className="flex items-center border rounded">
+                    <div className="flex items-center border border-slate-600 rounded">
                       <p className="p-1.5 border-r dark:border-slate-600 text-red-600 ">
                         <AiOutlineMinus className="text-xs" />
                       </p>
