@@ -4,7 +4,6 @@ import { registerLicense } from "@syncfusion/ej2/base";
 import App from "./App.jsx";
 import "./index.css";
 import "./App.css";
-// import "./styles/tailwind-dark-lite.css";
 
 import { ContextProvider } from "./contexts/StateContext.jsx";
 
