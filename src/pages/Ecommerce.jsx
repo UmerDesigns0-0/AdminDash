@@ -128,9 +128,9 @@ const Ecommerce = () => {
         {/* ─────── COLUMN 2: Expense/Budget + Sparkline ─────── */}
         <div>
           {/* Legend */}
-          <div className="flex items-center gap-4 mb-4">
+          <div className="flex font-medium items-center gap-6 mb-4">
             <span className="flex items-center gap-1 text-slate-600">
-              <BsDot className="text-4xl" />
+              <BsDot className="text-5xl" />
               Expense
             </span>
 
@@ -138,7 +138,7 @@ const Ecommerce = () => {
               style={{ color: currentColor }}
               className="flex items-center gap-1"
             >
-              <BsDot className="text-4xl" />
+              <BsDot className="text-5xl" />
               Budget
             </span>
           </div>
