@@ -25,7 +25,10 @@ export const ContextProvider = ({ children }) => {
   };
 
   const handleClick = (clicked) => {
-    setIsClicked({ ...inistialState, [clicked]: true });
+    setIsClicked((prev) => ({
+      ...inistialState,
+      [clicked]: !prev[clicked],
+    }));
   };
 
   return (
